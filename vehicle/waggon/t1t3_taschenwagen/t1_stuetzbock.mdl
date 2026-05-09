@@ -1,0 +1,76 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 9.05000019073486328125, 1.21000003814697265625, 2.599999904632568359375, },
+			bbMin = { -9.05000019073486328125, -1.21000003814697265625, 0, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 9.05000019073486328125, 1.21000003814697265625, 1.2999999523162841796875, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1.2999999523162841796875, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/T3_kombiwaggon.mtl", },
+							mesh = "msh/bandion_mesh_t3_stutzbock_lod0.msh",
+							name = "zapfen",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4500000476837158203125, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 200,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/T3_kombiwaggon.mtl", },
+							mesh = "msh/bandion_mesh_t3_stutzbock_lod1.msh",
+							name = "zapfen",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.900000095367431640625, 0, -3, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 200,
+				visibleTo = 500,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/T3_kombiwaggon.mtl", },
+							mesh = "msh/bandion_mesh_t3_stutzbock_lod2.msh",
+							name = "zapfen",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.900000095367431640625, 0, -3, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 500,
+				visibleTo = 1500,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1973,
+				yearTo = 0,
+			},
+			maintenance = { 
+				lifespan = 0,
+				runningCosts = 0,
+			},
+		},
+		version = 2,
+	}
+end

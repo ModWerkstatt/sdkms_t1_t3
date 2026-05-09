@@ -1,0 +1,22 @@
+{
+    "name": "Pocket cart T1 and T3",
+    "summary": "The T1 and T3 flatcars are designed for transporting trailers and containers. This mod includes over 15 variants.",
+    "description": "Pocket wagons are specialized rail vehicles that have been developed for combined transport since 1973. They enable the transportation of semi-trailers, containers and swap bodies. The wagons have a low-lying loading area with folding support pins for securing containers and swap bodies as well as a fifth wheel coupling for supporting semi-trailers. These universal wagons adapt to the changing requirements of trailer and container technology every ten years or so, resulting in a wide range of design variants.",
+    "localization" : {
+        "de": {
+            "name": "Sdkms T1 und T3 Taschenwagen",
+            "summary": "Die Taschenwagen T1 und T3 sind für den Transport von Trailer und Container geeignet. In diesem Mod sind über 15 Varianten enthalten.",
+            "description": "Taschenwagen sind spezialisierte Schienenfahrzeuge, die seit 1973 für den kombinierten Verkehr entwickelt wurden. Sie ermöglichen den Transport von Sattelanhängern, Containern und Wechselbehältern. Die Wagen verfügen über eine tief liegende Ladefläche mit klappbaren Aufsetzzapfen für die Fixierung von Containern und Wechselbehältern sowie einer Sattelkupplung für die Stützung von Sattelanhängern. Diese Universalwagen passen sich den sich wandelnden Anforderungen der Trailer- und Container-Technologie alle etwa zehn Jahre an, was zu einer Vielfalt von Bauvarianten führt."
+        }
+    },
+    "authors": [
+        {
+            "name": "ModWerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Wagon"
+    ],
+    "url": "https://modwerkstatt.com/downloads/tpf3/taschenwagen-t1-t3"
+}

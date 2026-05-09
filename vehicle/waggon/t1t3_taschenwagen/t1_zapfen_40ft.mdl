@@ -1,0 +1,76 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 8.05000019073486328125, 2, 5.599999904632568359375, },
+			bbMin = { -8.05000019073486328125, -2, 2, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 8.05000019073486328125, 2, 1.7999999523162841796875, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.7999999523162841796875, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/zapfen.mtl", },
+							mesh = "msh/zapfen_40_ft_t1_lod0.msh",
+							name = "zapfen",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.2068374156951904296875, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 200,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/zapfen.mtl", },
+							mesh = "msh/zapfen_40_ft_t1_lod1.msh",
+							name = "zapfen",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.2068374156951904296875, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 200,
+				visibleTo = 500,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							materials = { "mat/zapfen.mtl", },
+							mesh = "msh/zapfen_40_ft_t1_lod2.msh",
+							name = "zapfen",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.2068374156951904296875, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 500,
+				visibleTo = 1500,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1973,
+				yearTo = 0,
+			},
+			maintenance = { 
+				lifespan = 0,
+				runningCosts = 0,
+			},
+		},
+		version = 2,
+	}
+end

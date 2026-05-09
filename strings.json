@@ -1,0 +1,58 @@
+{
+  "en": {
+		"menu_sdgnss_t5": "Sdgnss T5 Pocket cart",
+		
+		"fake": "Fake - ",
+	
+		"fake_sdgnss_t5": "Activate fake versions?",
+		"tooltip_fake": "Should the fake versions be available in the game?",
+	
+        "t1_wagen_desc" : "The T1 (a) pocket wagon type was coordinated by the UIRR and developed by the Deutsche Bundesbahn and the SNCF to transport semi-trailers, swap bodies and containers. The first wagons were put into service in 1973, and a total of around 1500 wagons were used until the end of the 1990s. DB Schenker Rail AG carried out an upgrade (T1b) with larger wheelsets and increased bogie pivot spacing. DB Cargo AG used parts from decommissioned wagons for new models. A project on the future of combined transport emphasizes the need to phase out the remaining T1a wagons in Europe.",
+        "t3_wagen_desc" : "The T1a pocket wagon type was replaced by the T3 from 1984 due to its low payload. At 18,340 mm, the T3 is almost two meters longer than the T1 and has a load limit of 59 t, which was later increased to 69 t. The T3 enables the transportation of heavy semi-trailers, but not mega trailers. Compared to the T1, the tare weight increased by five tons to 21 tons. In the 1990s, MSV Studénka, Talbot and Waggonbau Niesky produced the T3. The inefficient use of the loading area for container transportation was a problem. At the end of 2018, 160 of the original 170 Sdgmns743s were still registered with DB AG. Austrian Rail Cargo has 200 T3 wagons of type Sdgmnss4587, which are approved for 120 km/h in terms of braking, compared to the 100 km/h of DB Cargo's Sdgmns743.",
+      
+		"ladung_container" : " - Container",
+		"ladung_trailer" : " - Trailer",
+		
+		"ganzzug_winner" : " - Block train Winner",
+		"ganzzug_walter" : " - Block train Walter",
+		"ganzzug_wetron" : " - Block train Wetron",
+	  	  
+		"offset x-axis": "Offset x-axis",
+		"vehicle": "Vehicle",
+		"asset": "Asset",
+		"height": "Height",
+		"ground": "Ground",
+		"rail": "Rail",
+		"height_tooltip": "Where should be the origin of the height?",
+		"jrm_param_offsetx_tooltip": "Offset in x direction"
+		
+  },
+  "de": {
+		"menu_sdgnss_t5": "Sdgnss T5 Taschenwagen",
+	
+		"fake": "Fake -",	
+	
+		"fake_sdgnss_t5": "Fake-Versionen aktivieren?",
+		"tooltip_fake": "Sollen die Fake-Versionen verfügbar sein im Spiel?",
+	
+        "t1_wagen_desc" : "Die Taschenwagen-Bauart T1 (a) wurde von der UIRR koordiniert und von der Deutschen Bundesbahn sowie der SNCF entwickelt, um Sattelanhänger, Wechselbehälter und Container zu transportieren. Die ersten Wagen wurden 1973 in Betrieb genommen, insgesamt wurden etwa 1500 Wagen bis Ende der 1990er Jahre eingesetzt. Die DB Schenker Rail AG führte eine Aufwertung (T1b) mit größeren Radsätzen und erhöhtem Drehzapfenabstand durch. Die DB Cargo AG verwendete Teile ausgemusterter Wagen für neue Modelle. Ein Projekt zur Zukunft des kombinierten Verkehrs betont die Notwendigkeit der Ausmusterung der verbleibenden T1a-Wagen in Europa.",
+        "t3_wagen_desc" : "Die Taschenwagen-Bauart T1a wurde aufgrund ihrer geringen Nutzlast ab 1984 durch die T3 ersetzt. Der T3 ist mit 18.340 mm fast zwei Meter länger als der T1 und hat eine Lastgrenze von 59 t, die später auf 69 t erhöht wurde. Der T3 ermöglicht den Transport schwerer Sattelauflieger, aber keine Megatrailer. Das Eigengewicht stieg im Vergleich zum T1 um fünf Tonnen auf 21 t. In den 1990er Jahren produzierten MSV Studénka, Talbot und Waggonbau Niesky den T3. Die ineffiziente Nutzung der Ladefläche bei Containertransporten war ein Problem. Ende 2018 waren von den ursprünglich 170 Sdgmns743 noch 160 bei der DB AG registriert. Die österreichische Rail Cargo hat 200 T3-Wagen vom Typ Sdgmnss4587, die bremstechnisch für 120 km/h zugelassen sind, im Vergleich zu den 100 km/h des Sdgmns743 der DB Cargo.",
+		
+		"ladung_container" : " - Container",
+		"ladung_trailer" : " - Trailer",
+		
+		"ganzzug_winner" : " - Ganzzug Winner",
+		"ganzzug_walter" : " - Ganzzug Walter",
+		"ganzzug_wetron" : " - Ganzzug Wetron",
+		
+		"offset x-axis": "Offset x-Achse",
+		"vehicle": "Fahrzeug",
+		"asset": "Asset",
+		"height": "Höhe",
+		"ground": "Boden",
+		"rail": "Schiene",
+		"height_tooltip": "Wonach soll die Höhe gesetzt werden?",
+		"jrm_param_offsetx_tooltip": "Verschiebung in x-Richtung"
+	  
+    }
+}
