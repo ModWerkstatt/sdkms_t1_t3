@@ -18,7 +18,7 @@ return {
 						{ 
 							materials = { "mat/zapfen.mtl", },
 							mesh = "msh/zapfen_2x20ft_lod0.msh",
-							name = "zapfen_2x20ft",
+							name = "zapfen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 					},
@@ -34,7 +34,7 @@ return {
 						{ 
 							materials = { "mat/zapfen.mtl", },
 							mesh = "msh/zapfen_2x20ft_lod1.msh",
-							name = "zapfen_30ft",
+							name = "zapfen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -5.19999980926513671875, 1, },
 						},
 					},
@@ -50,7 +50,7 @@ return {
 						{ 
 							materials = { "mat/zapfen.mtl", },
 							mesh = "msh/zapfen_2x20ft_lod2.msh",
-							name = "zapfen_30ft",
+							name = "zapfen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -5.19999980926513671875, 1, },
 						},
 					},

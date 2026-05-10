@@ -718,9 +718,9 @@ return {
 									capacity = 64,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
+										cargoClassesIncluded = { "GOODS", },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
+										cargoTypesIncluded = { },
 									},
 									loadIndicator = "slots_0",
 									seats = { },

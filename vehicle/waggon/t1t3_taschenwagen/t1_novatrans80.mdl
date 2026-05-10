@@ -57,7 +57,7 @@ return {
 							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s.mtl", },
 							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_90s_lod0.msh",
 							name = "headlights_fwd",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.66, -0.87, 1.26, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.66, 0.84, 1.26, 1, },
 						},
 						{ 
 							animations = { 
@@ -76,10 +76,10 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s.mtl", },
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
 							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 							name = "headlights_fwd",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.67, 0.84, 1.26, 1, },
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.67, -0.87, 1.26, 1, },
 						},
 						{ 
 							animations = { 
@@ -98,7 +98,7 @@ return {
 									type = "FILE_REF",
 								},
 							},
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s.mtl", },
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_sncf_90s_licht.mtl", },
 							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_sncf_licht_90s_lod0.msh",
 							name = "headlights_fwd",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -7.66, 0.84, 1.26, 1, },
@@ -762,9 +762,9 @@ return {
 									capacity = 64,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
+										cargoClassesIncluded = { "GOODS", },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
+										cargoTypesIncluded = { },
 									},
 									loadIndicator = "slots_0",
 									seats = { },

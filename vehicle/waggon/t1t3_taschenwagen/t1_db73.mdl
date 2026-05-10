@@ -736,81 +736,11 @@ return {
 									capacity = 64,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
+										cargoClassesIncluded = { "GOODS", },
 										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/goods/goods.cargo", },
+										cargoTypesIncluded = { },
 									},
 									loadIndicator = "slots_0",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 64,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/tools/tools.cargo", },
-									},
-									loadIndicator = "slots_1",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 64,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/plastic/plastic.cargo", },
-									},
-									loadIndicator = "slots_2",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 64,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/machines/machines.cargo", },
-									},
-									loadIndicator = "slots_3",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 64,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/construction_materials/construction_materials.cargo", },
-									},
-									loadIndicator = "slots_4",
-									seats = { },
-								},
-								toHide = { },
-							},
-							{ 
-								cargoEntry = { 
-									capacity = 64,
-									cargoTypeSet = { 
-										cargoClassesExcluded = { },
-										cargoClassesIncluded = { },
-										cargoTypesExcluded = { },
-										cargoTypesIncluded = { "::/cargos/food/food.cargo", },
-									},
-									loadIndicator = "slots_5",
 									seats = { },
 								},
 								toHide = { },
