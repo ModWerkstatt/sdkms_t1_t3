@@ -604,8 +604,8 @@ return {
 				price = -1,
 			},
 			description = { 
-				description = _("t1_wagen_desc"),
-				name = _("Sdkmmss (FS) [1981]"),
+				description = _("sdkmns_t1_desc"),
+				name = _("Sdkmmss FS"),
 			},
 			emissions = { 
 				noise = { 
@@ -731,7 +731,7 @@ return {
 					},
 				},
 				engineTags = { },
-				groupFileName = "menu_t1t3.mdl",
+				groupFileName = "menu_sdkms_t1.mdl",
 				loadSpeed = 3,
 				tags = { "TRAIN", "ELECTRIC_TRAIN", },
 			},

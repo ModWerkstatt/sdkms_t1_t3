@@ -580,8 +580,8 @@ return {
 				price = -1,
 			},
 			description = { 
-				description = _("t3_wagen_desc"),
-				name = _("Sdgmns (SJ) [1985]"),
+				description = _("sdgmns_t3_desc"),
+				name = _("Sdgmns T3 SJ"),
 			},
 			emissions = { 
 				noise = { 
@@ -719,7 +719,7 @@ return {
 					},
 				},
 				engineTags = { },
-				groupFileName = "t1t3_menu.mdl",
+				groupFileName = "menu_sdgmns_t3.mdl",
 				loadSpeed = 4,
 				tags = { "TRAIN", "ELECTRIC_TRAIN", },
 			},

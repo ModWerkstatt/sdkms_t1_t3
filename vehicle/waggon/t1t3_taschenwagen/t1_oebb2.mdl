@@ -658,8 +658,8 @@ return {
 				price = -1,
 			},
 			description = { 
-				description = _("t1_wagen_desc"),
-				name = _("Sdgkkmss (BB) [2006]"),
+				description = _("sdkmns_t1_desc"),
+				name = _("Sdgkkmss ÖBB"),
 			},
 			emissions = { 
 				noise = { 
@@ -785,7 +785,7 @@ return {
 					},
 				},
 				engineTags = { },
-				groupFileName = "menu_t1t3.mdl",
+				groupFileName = "menu_sdkms_t1.mdl",
 				loadSpeed = 3,
 				tags = { "TRAIN", "ELECTRIC_TRAIN", },
 			},
