@@ -39,7 +39,7 @@ return {
 			price = -1,
 		},
 		description = { 
-			name = _("menu_sdgmns_t3"),
+			name = _("menu_sdkms_t1"),
 		},
 		emissions = { 
 			noise = { 
@@ -71,9 +71,9 @@ return {
 		},
 		transportVehicle = { 
 			carrier = "RAIL",
-			engineTags = { "ELECTRIC_TRAIN", },
-			tags = { "TRAIN", "ELECTRIC_TRAIN", },
-			multipleUnitOnly = true,
+			engineTransportModes = { },
+			transportModes = {  },
+			filterTags = { },
 		},
 	},
 	version = 2,
