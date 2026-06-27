@@ -16,8 +16,8 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/T3_kombiwaggon.mtl", },
-							mesh = "msh/bandion_mesh_t3_stutzbock_lod0.msh",
+							materials = { "mat/t3_kombiwaggon.mtl", },
+							mesh = "msh/t3_stutzbock_lod0.msh",
 							name = "zapfen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.30000019073486328125, 0, 0.0500000007450580596923828125, 1, },
 						},
@@ -32,8 +32,8 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/T3_kombiwaggon.mtl", },
-							mesh = "msh/bandion_mesh_t3_stutzbock_lod1.msh",
+							materials = { "mat/t3_kombiwaggon.mtl", },
+							mesh = "msh/t3_stutzbock_lod1.msh",
 							name = "zapfen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, -3, 1, },
 						},
@@ -48,8 +48,8 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/T3_kombiwaggon.mtl", },
-							mesh = "msh/bandion_mesh_t3_stutzbock_lod2.msh",
+							materials = { "mat/t3_kombiwaggon.mtl", },
+							mesh = "msh/t3_stutzbock_lod2.msh",
 							name = "zapfen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, -3, 1, },
 						},
