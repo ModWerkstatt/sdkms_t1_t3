@@ -787,7 +787,7 @@ return {
 					},
 				},
 				engineTransportModes = { },
-				groupFileName = "menu_sdgmns_t3.mdl",
+				groupFileName = "menu_t3.mdl",
 				loadSpeed = 4,
 				transportModes = { "TRAIN", "ELECTRIC_TRAIN", },
 				filterTags = { "default", },
