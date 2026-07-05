@@ -593,54 +593,6 @@ return {
 							name = "t1_dickestangen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
-						{ 
-							children = {
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_y25_lss.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod2.msh",
-									name = "dg_achse_920mm_lod2_4",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_y25_lss.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod2.msh",
-									name = "dg_achse_920mm_lod2_5",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_y25_lss.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/msh/dg_ba_y25_lss_lod2.msh",
-									name = "dg_ba_y25_lss_lod2_6",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-								},
-							},
-							name = "RootNode",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.519999980926513671875, 0, 0, 1, },
-						},
-						{ 
-							children = {
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_y25_lss.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod2.msh",
-									name = "dg_achse_920mm_lod2_8",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_y25_lss.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/msh/dg_achse_920mm_lod2.msh",
-									name = "dg_achse_920mm_lod2_9",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814208984375, 0, 0.4516200125217437744140625, 1, },
-								},
-								{ 
-									materials = { "/vehicle/waggon/modwerkstatt_basis/mat/dg_ba_y25_lss.mtl", },
-									mesh = "/vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/msh/dg_ba_y25_lss_lod2.msh",
-									name = "dg_ba_y25_lss_lod2_10",
-									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-								},
-							},
-							name = "RootNode",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.519999980926513671875, 0, 0, 1, },
-						},
 					},
 					name = "RootNode",
 					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
