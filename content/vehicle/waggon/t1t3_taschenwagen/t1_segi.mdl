@@ -231,13 +231,13 @@ return {
 						},
 						{ 
 							materials = { "mat/t1_segi.mtl", },
-							mesh = "msh/t1_zusatzKlappen_lod0.msh",
+							mesh = "msh/t1_zusatzklappen_lod0.msh",
 							name = "t1_zusatzKlappen",
 							transf = { 0.9900000095367431640625, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -0.0199999995529651641845703125, 1, },
 						},
 						{ 
 							materials = { "mat/t1_segi.mtl", },
-							mesh = "msh/t1_sncfZH_lod0.msh",
+							mesh = "msh/t1_sncfzh_lod0.msh",
 							name = "t1_zh",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
@@ -433,13 +433,13 @@ return {
 						},
 						{ 
 							materials = { "mat/t1_segi.mtl", },
-							mesh = "msh/t1_zusatzKlappen_lod0.msh",
+							mesh = "msh/t1_zusatzklappen_lod0.msh",
 							name = "t1_zusatzKlappen",
 							transf = { 0.9900000095367431640625, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -0.0199999995529651641845703125, 1, },
 						},
 						{ 
 							materials = { "mat/t1_segi.mtl", },
-							mesh = "msh/t1_sncfZH_lod0.msh",
+							mesh = "msh/t1_sncfzh_lod0.msh",
 							name = "t1_zh",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},

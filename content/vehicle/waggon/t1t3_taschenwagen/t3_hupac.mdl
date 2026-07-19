@@ -194,7 +194,7 @@ return {
 						{ 
 							materials = { "mat/t3_hupac.mtl", },
 							mesh = "msh/t3_strebenmodern_lod0.msh",
-							name = "t3_strebenOld",
+							name = "t3_strebenold",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -452,7 +452,7 @@ return {
 						{ 
 							materials = { "mat/t3_hupac.mtl", },
 							mesh = "msh/t3_strebenmodern_lod1.msh",
-							name = "t3_strebenOld",
+							name = "t3_strebenold",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
