@@ -621,10 +621,37 @@ return {
 						cargoSlots = { 
 							configurations = {
 								{
-									{ 0, 5, },
+									{ 0, },
+									{ 1, },
+									{ 1, 7, },
+									{ 1, 7, 8, },
 								},
 								{
-									{ 0, 5, },
+									{ 0, },
+									{ 2, },
+									{ 2, 9, },
+									{ 2, 9, 10, },
+								},
+								{
+									{ 0, },
+									{ 3, },
+									{ 3, 11, },
+									{ 3, 11, 7, },
+								},
+								{
+									{ 0, },
+									{ 4, },
+									{ 4, 12, },
+								},
+								{
+									{ 0, },
+									{ 5, },
+									{ 5, 13, },
+								},
+								{
+									{ 0, },
+									{ 6, },
+									{ 6, 15, },
 								},
 							},
 						},
@@ -633,10 +660,51 @@ return {
 						cargoSlots = { 
 							configurations = {
 								{
-									{ 0, 5, },
+									{ 0, },
+									{ 1, },
+									{ 1, 7, },
+									{ 1, 7, 8, },
 								},
 								{
-									{ 0, 5, },
+									{ 0, },
+									{ 5, },
+									{ 5, 14, },
+									{ 5, 14, },
+								},
+							},
+						},
+					},
+					slots_2 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 0, },
+									{ 1, },
+									{ 1, 7, },
+									{ 1, 7, 8, },
+								},
+								{
+									{ 0, },
+									{ 2, },
+									{ 2, 16, },
+									{ 2, 16, 10, },
+								},
+							},
+						},
+					},
+					slots_3 = { 
+						cargoSlots = { 
+							configurations = {
+								{
+									{ 0, },
+									{ 1, },
+									{ 1, 7, },
+									{ 1, 7, 8, },
+								},
+								{
+									{ 0, },
+									{ 5, },
+									{ 5, 13, },
 								},
 							},
 						},
@@ -647,43 +715,103 @@ return {
 						group = "body",
 						models = { "t3_stuetzbock.mdl", },
 						randomId = 0,
-						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.14000000059604644775390625, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.14, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
 						models = { "t3_zapfen_20ft.mdl", },
 						randomId = 1,
-						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 2.1600000858306884765625, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -3, 1, },
 					},
 					{ 
 						group = "body",
 						models = { "t3_zapfen_20_26ft.mdl", },
 						randomId = 2,
-						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -12.11999988555908203125, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
 						models = { "t3_zapfen_30_20ft.mdl", },
 						randomId = 3,
-						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
 						models = { "t3_zapfen_30ft.mdl", },
 						randomId = 4,
-						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 0, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
 						models = { "t3_zapfen_40ft.mdl", },
 						randomId = 5,
-						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -4.940000057220458984375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					},
 					{ 
 						group = "body",
 						models = { "t3_stuetzbock_laden.mdl", },
 						randomId = 6,
-						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1.190000057220458984375, 0, 0, 0, -0.3300000131130218505859375, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1.19, 0, -0.2, 0, -0.28, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", },
+						randomId = 7,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.92, 0, 1.24, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", },
+						randomId = 8,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.86, 0, 1.24, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", "#CONT20FTHC", "#SWBD24FT", "#SWBD26FT", },
+						randomId = 9,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.86, 0, 1.24, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", },
+						randomId = 10,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.5, 0, 1.24, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT30FT", },
+						randomId = 11,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.95, 0, 1.24, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT30FT", },
+						randomId = 12,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2, 0, 1.24, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT40FT", "#CONT40FTHC", "#CONT45FTHC", },
+						randomId = 13,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.35, 0, 1.24, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT40FT", },
+						randomId = 14,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.35, 0, 1.24, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#TRAILER40FT", },
+						randomId = 15,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.33, 0, 0.32, 1, },
+					},
+					{ 
+						group = "body",
+						models = { "#CONT20FT", "#CONT26FT", },
+						randomId = 16,
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.86, 0, 1.24, 1, },
 					},
 				},
 			},
@@ -693,7 +821,7 @@ return {
 			},
 			railVehicle = { 
 				config = { 
-					axles = { "a1",  "a2", "a3", "a4",},
+					axles = { "a1", "a2", "a3", "a4", },
 					fakeBogies = { },
 				},
 			},
@@ -715,14 +843,56 @@ return {
 						loadConfigs = {
 							{ 
 								cargoEntry = { 
-									capacity = 72,
+									capacity = 52,
 									cargoTypeSet = { 
 										cargoClassesExcluded = { },
 										cargoClassesIncluded = { "GOODS", },
-										cargoTypesExcluded = { },
+										cargoTypesExcluded = { "::/cargos/fish/fish.cargo", "::/cargos/meat/meat.cargo", "::/cargos/vegetables/vegetables.cargo", },
 										cargoTypesIncluded = { },
 									},
 									loadIndicator = "slots_0",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 52,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "GOODS", },
+										cargoTypesExcluded = { "::/cargos/books/books.cargo", "::/cargos/bricks/bricks.cargo", "::/cargos/clothes/clothes.cargo", "::/cargos/fabric/fabric.cargo", "::/cargos/furniture/furniture.cargo", "::/cargos/glass/glass.cargo", "::/cargos/paper/paper.cargo", "::/cargos/plastic/plastic.cargo", "::/cargos/tinned_food/tinned_food.cargo", "::/cargos/tires/tires.cargo", "::/cargos/tools/tools.cargo", "::/cargos/wool/wool.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_1",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 52,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "LIQUID", },
+										cargoTypesExcluded = { "::/cargos/crude_oil/crude_oil.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_2",
+									seats = { },
+								},
+								toHide = { },
+							},
+							{ 
+								cargoEntry = { 
+									capacity = 52,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { "FLATBED", },
+										cargoTypesExcluded = { "::/cargos/logs/logs.cargo", "::/cargos/sheet_metal/sheet_metal.cargo", },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "slots_3",
 									seats = { },
 								},
 								toHide = { },
