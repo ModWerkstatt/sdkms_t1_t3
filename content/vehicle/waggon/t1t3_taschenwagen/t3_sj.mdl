@@ -639,7 +639,7 @@ return {
 								{
 									{ 0, },
 									{ 6, },
-									{ 6, 15, },
+									{ 6, 14, },
 								},
 							},
 						},
@@ -656,8 +656,8 @@ return {
 								{
 									{ 0, },
 									{ 5, },
-									{ 5, 14, },
-									{ 5, 14, },
+									{ 5, 13, },
+									{ 5, 13, },
 								},
 							},
 						},
@@ -674,8 +674,8 @@ return {
 								{
 									{ 0, },
 									{ 2, },
-									{ 2, 16, },
-									{ 2, 16, 10, },
+									{ 2, 9, },
+									{ 2, 9, 10, },
 								},
 							},
 						},
@@ -709,7 +709,7 @@ return {
 						group = "body",
 						models = { "t3_zapfen_20ft.mdl", },
 						randomId = 1,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -3, 1, },
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -3.03, 1, },
 					},
 					{ 
 						group = "body",
@@ -755,13 +755,13 @@ return {
 					},
 					{ 
 						group = "body",
-						models = { "#CONT20FT", "#CONT20FTHC", "#SWBD24FT", "#SWBD26FT", },
+						models = { "#CONT20FT", "#CONT26FT", "#CONT20FTHC", "#SWBD24FT", "#SWBD26FT", },
 						randomId = 9,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.86, 0, 1.24, 1, },
 					},
 					{ 
 						group = "body",
-						models = { "#CONT20FT", },
+						models = { "#CONT20FT", "#CONT26FT", },
 						randomId = 10,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.5, 0, 1.24, 1, },
 					},
@@ -785,21 +785,9 @@ return {
 					},
 					{ 
 						group = "body",
-						models = { "#CONT40FT", },
-						randomId = 14,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.35, 0, 1.24, 1, },
-					},
-					{ 
-						group = "body",
 						models = { "#TRAILER40FT", },
-						randomId = 15,
+						randomId = 14,
 						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.33, 0, 0.32, 1, },
-					},
-					{ 
-						group = "body",
-						models = { "#CONT20FT", "#CONT26FT", },
-						randomId = 16,
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.86, 0, 1.24, 1, },
 					},
 				},
 			},
