@@ -16,185 +16,9 @@ return {
 				node = { 
 					children = {
 						{ 
-							animations = { 
-								back_forward_parts_off = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
-									},
-									type = "FILE_REF",
-								},
-								back_forward_parts_on = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
-							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
-							name = "headlights_fwd",
-							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -7.769999980926513671875, -0.85000002384185791015625, 1.5299999713897705078125, 1, },
-						},
-						{ 
-							animations = { 
-								back_forward_parts_off = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
-									},
-									type = "FILE_REF",
-								},
-								back_forward_parts_on = { 
-									interpolation = "NEAREST",
-									params = { 
-										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
-									},
-									type = "FILE_REF",
-								},
-							},
-							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
-							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
-							name = "headlights_fwd",
-							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -7.769999980926513671875, 0.85000002384185791015625, 1.5299999713897705078125, 1, },
-						},
-						{ 
 							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_body_lod0.msh",
+							mesh = "msh/sdkmns_db_lod0.msh",
 							name = "body",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_kupplung_lod0.msh",
-							name = "t1_kupplung",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_unterbau_lod0.msh",
-							name = "t1_unterbanu",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_puffer_lod0.msh",
-							name = "t1_puffer",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_halter_lod0.msh",
-							name = "t1_halter",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_dickestangen_lod0.msh",
-							name = "t1_dickestangen",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_hb_lod0.msh",
-							name = "t1_hb",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_mitte_lod0.msh",
-							name = "t1_mitte",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_platten_lod0.msh",
-							name = "t1_platten",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_innentank_lod0.msh",
-							name = "t1_innentank",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_innenseite_lod0.msh",
-							name = "t1_innenseite",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_kegp_lod0.msh",
-							name = "t1_kegp",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_seilhaken_lod0.msh",
-							name = "t1_seilhaken",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_tritt_lod0.msh",
-							name = "t1_tritt",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_trittbig_lod0.msh",
-							name = "t1_trittbig",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_bogen_lod0.msh",
-							name = "t1_bogen",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_rohre_lod0.msh",
-							name = "t1_rohreModern",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_bedienbar_lod0.msh",
-							name = "t1_bedienbar",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_hmkeineahnung_lod0.msh",
-							name = "t1_hmkeineahnung",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_gelander_lod0.msh",
-							name = "t1_gelander",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_zettel_lod0.msh",
-							name = "t1_zettel",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_strebenmitte_lod0.msh",
-							name = "t1_strebenmitte",
-							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
-						},
-						{ 
-							materials = { "mat/t1_hupac90.mtl", },
-							mesh = "msh/t1_strebenaussen_lod0.msh",
-							name = "t1_strebenaussen",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 						},
 						{ 
@@ -262,6 +86,50 @@ return {
 							},
 							name = "dg2",
 							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 5.85, 0, 0, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "headlights_fwd",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -7.769999980926513671875, -0.85000002384185791015625, 1.5299999713897705078125, 1, },
+						},
+						{ 
+							animations = { 
+								back_forward_parts_off = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+									},
+									type = "FILE_REF",
+								},
+								back_forward_parts_on = { 
+									interpolation = "NEAREST",
+									params = { 
+										id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+									},
+									type = "FILE_REF",
+								},
+							},
+							materials = { "mw_basis::/vehicle/waggon/mw_basis/mat/zugschluss_de.mtl", },
+							mesh = "mw_basis::/vehicle/waggon/mw_basis/msh/zugschluss_de_lod0.msh",
+							name = "headlights_fwd",
+							transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -7.769999980926513671875, 0.85000002384185791015625, 1.5299999713897705078125, 1, },
 						},
 					},
 					name = "RootNode",
