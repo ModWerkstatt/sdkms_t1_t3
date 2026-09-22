@@ -593,7 +593,7 @@ return {
 			},
 			description = { 
 				description = _("sdgmns_t3_desc"),
-				name = _("Sdgmns 743 verkehrsrot DBAG"),
+				name = _("Sdgmns 743 rotbraun DBAG"),
 			},
 			emissions = { 
 				noise = { 
