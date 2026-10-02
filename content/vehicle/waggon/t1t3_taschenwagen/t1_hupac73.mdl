@@ -16,7 +16,7 @@ return {
 				node = { 
 					children = {
 						{ 
-							materials = { "mat/t1_hupa73.mtl", },
+							materials = { "mat/t1_hupac73.mtl", },
 							mesh = "msh/sdkmns_db_lod0.msh",
 							name = "body",
 							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
